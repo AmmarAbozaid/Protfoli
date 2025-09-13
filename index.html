@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ammar Portfolio</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      scroll-behavior: smooth;
+    }
+
+    
+    #particles-js {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: #0d0d0d;
+      z-index: -1;
+    }
+
+    
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid #00c3ff;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin: 10px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #bbb;
+    }
+
+    
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 30px;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 195, 255, 0.3);
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #00c3ff;
+    }
+
+    
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .skill {
+      background: #111;
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: 1px solid #00c3ff;
+    }
+
+    
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .item {
+      background: #111;
+      padding: 20px;
+      border-radius: 10px;
+      border-left: 4px solid #00c3ff;
+    }
+
+    .item h3 {
+      margin: 0 0 5px;
+      color: #00c3ff;
+    }
+
+    .item span {
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    .item p {
+      margin-top: 10px;
+      color: #ddd;
+    }
+
+    
+    .portfolio-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .portfolio-items div {
+      background: #111;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      border: 1px solid #00c3ff;
+    }
+
+    
+    .contact {
+      text-align: center;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      background: #00c3ff;
+      color: #000;
+      transition: 0.3s;
+    }
+
+    .contact a:hover {
+      background: #0099cc;
+    }
+  </style>
+</head>
+<body>
+  
+  <div id="particles-js"></div>
+
+  
+  <header>
+    <img src="imgs/WhatsApp Image 2025-08-20 at 16.25.51_e698d761.jpg" alt="My Photo"> <!-- ضع صورتك هنا -->
+    <h1>Ammar Abozaid</h1>
+    <p>Front-End Developer | UI/UX Enthusiast</p>
+  </header>
+
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      أنا عمار، مطور واجهات أمامية بخبرة في بناء مواقع ويب تفاعلية وسريعة باستخدام 
+      HTML, CSS, JavaScript, Bootstrap, React. 
+      عندي شغف بتجربة المستخدم والتصميم العصري.
+    </p>
+  </section>
+
+  
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Bootstrap</div>
+      <div class="skill">React</div>
+      <div class="skill">Photoshop</div>
+      <div class="skill">Figma</div>
+    </div>
+  </section>
+
+  
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <div class="item">
+        <h3>Front-End Developer (Freelance)</h3>
+        <span>2023 – Present</span>
+        <p>
+          عملت على تصميم وتطوير واجهات مواقع تفاعلية باستخدام 
+          <strong>HTML, CSS, JavaScript, React</strong>، مع التركيز على تحسين تجربة المستخدم 
+          وجعل المواقع متوافقة مع جميع الأجهزة.
+        </p>
+      </div>
+
+      <div class="item">
+        <h3>Experience</h3>
+        <span>📘 Placeholder</span>
+        <p>
+         Developed and maintained responsive websites using 
+        <strong>HTML, CSS, JavaScript, and React</strong>.  
+        Focused on creating clean code, improving user experience, 
+        and ensuring cross-device compatibility.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="education">
+    <h2>Education</h2>
+    <div class="timeline">
+      <div class="item">
+        <h3>Computer Science – MET</h3>
+        <span>2023 – 2027</span>
+        <p>
+          حالياً طالب في كلية علوم الحاسب، أركز على البرمجة وتطوير الويب 
+          واكتساب خبرة عملية في بناء المشاريع البرمجية.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="portfolio">
+    <h2>My Work</h2>
+    <div class="portfolio-items">
+      <div>🔗 Project 1</div>
+      <div>🔗 Project 2</div>
+      <div>🔗 Project 3</div>
+    </div>
+  </section>
+
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <a href="mailto:ammarabozaid07@gmail.com">📧 Email Me</a>
+      <a href="tel:01205790741">📞 Call Me</a>
+      <a href="https://www.linkedin.com/in/ammar-abozaid-" target="_blank">💼 LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- مكتبة الخلفية -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 80 },
+        "color": { "value": "#00c3ff" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.5 },
+        "size": { "value": 3 },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#00c3ff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": { "enable": true, "speed": 4 }
+      },
+      "interactivity": {
+        "events": {
+          "onhover": { "enable": true, "mode": "grab" },
+          "onclick": { "enable": true, "mode": "push" }
+        },
+        "modes": {
+          "grab": { "distance": 200, "line_linked": { "opacity": 0.7 } },
+          "push": { "particles_nb": 4 }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>
+</html>
